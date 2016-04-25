@@ -1,0 +1,124 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* Door_Lock\
+* Door_Lock\.classpath
+* Door_Lock\.project
+* Door_Lock\.settings\
+* Door_Lock\.settings\org.eclipse.jdt.core.prefs
+* Door_Lock\AndroidManifest.xml
+* Door_Lock\bin\
+* Door_Lock\bin\AndroidManifest.xml
+* Door_Lock\bin\Door_Lock.apk
+* Door_Lock\bin\classes.dex
+* Door_Lock\bin\classes\
+* Door_Lock\bin\classes\com\
+* Door_Lock\bin\classes\com\example\
+* Door_Lock\bin\classes\com\example\door_lock\
+* Door_Lock\bin\classes\com\example\door_lock\BuildConfig.class
+* Door_Lock\bin\classes\com\example\door_lock\MainActivity$1.class
+* Door_Lock\bin\classes\com\example\door_lock\MainActivity$chatThread.class
+* Door_Lock\bin\classes\com\example\door_lock\MainActivity.class
+* Door_Lock\bin\classes\com\example\door_lock\R$attr.class
+* Door_Lock\bin\classes\com\example\door_lock\R$drawable.class
+* Door_Lock\bin\classes\com\example\door_lock\R$id.class
+* Door_Lock\bin\classes\com\example\door_lock\R$layout.class
+* Door_Lock\bin\classes\com\example\door_lock\R$string.class
+* Door_Lock\bin\classes\com\example\door_lock\R$style.class
+* Door_Lock\bin\classes\com\example\door_lock\R.class
+* Door_Lock\bin\dexedLibs\
+* Door_Lock\bin\dexedLibs\android-support-v4-12ffa829ef3966833da422c45a362123.jar
+* Door_Lock\bin\dexedLibs\android-support-v4-8a64ce1ae8b18e33eee2de7c7b001b17.jar
+* Door_Lock\bin\jarlist.cache
+* Door_Lock\bin\res\
+* Door_Lock\bin\res\crunch\
+* Door_Lock\bin\res\crunch\drawable-hdpi\
+* Door_Lock\bin\res\crunch\drawable-hdpi\ic_launcher.png
+* Door_Lock\bin\res\crunch\drawable-mdpi\
+* Door_Lock\bin\res\crunch\drawable-mdpi\ic_launcher.png
+* Door_Lock\bin\res\crunch\drawable-xhdpi\
+* Door_Lock\bin\res\crunch\drawable-xhdpi\ic_launcher.png
+* Door_Lock\bin\res\crunch\drawable-xxhdpi\
+* Door_Lock\bin\res\crunch\drawable-xxhdpi\ic_launcher.png
+* Door_Lock\bin\resources.ap_
+* Door_Lock\gen\
+* Door_Lock\gen\com\
+* Door_Lock\gen\com\example\
+* Door_Lock\gen\com\example\door_lock\
+* Door_Lock\gen\com\example\door_lock\BuildConfig.java
+* Door_Lock\gen\com\example\door_lock\R.java
+* Door_Lock\ic_launcher-web.png
+* Door_Lock\libs\
+* Door_Lock\libs\android-support-v4.jar
+* Door_Lock\proguard-project.txt
+* Door_Lock\project.properties
+* Door_Lock\res\
+* Door_Lock\res\drawable-hdpi\
+* Door_Lock\res\drawable-hdpi\ic_launcher.png
+* Door_Lock\res\drawable-mdpi\
+* Door_Lock\res\drawable-mdpi\ic_launcher.png
+* Door_Lock\res\drawable-xhdpi\
+* Door_Lock\res\drawable-xhdpi\ic_launcher.png
+* Door_Lock\res\drawable-xhdpi\open_1.jpg
+* Door_Lock\res\drawable-xhdpi\open_2.jpg
+* Door_Lock\res\drawable-xxhdpi\
+* Door_Lock\res\drawable-xxhdpi\ic_launcher.png
+* Door_Lock\res\layout\
+* Door_Lock\res\layout\activity_main.xml
+* Door_Lock\res\values-v11\
+* Door_Lock\res\values-v11\styles.xml
+* Door_Lock\res\values-v14\
+* Door_Lock\res\values-v14\styles.xml
+* Door_Lock\res\values\
+* Door_Lock\res\values\strings.xml
+* Door_Lock\res\values\styles.xml
+* Door_Lock\src\
+* Door_Lock\src\com\
+* Door_Lock\src\com\example\
+* Door_Lock\src\com\example\door_lock\
+* Door_Lock\src\com\example\door_lock\MainActivity.java
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
