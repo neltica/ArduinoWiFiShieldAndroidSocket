@@ -8,5 +8,6 @@
 >3. WiFiShield를 사용하려면 Adafruit_CC3000_Library-master.zip을 설치해야합니다.
 
 ##DHT-11 Layout
+![DHT-11 layout](https://github.com/neltica/ArduinoWiFiShieldAndroidSocket/blob/master/Readme_image/%ED%9A%8C%EB%A1%9C%EB%8F%84.jpg)
 
 
